@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b60953d0-997f-4c5e-a8a2-546bd9d30a5c" name="SPDS-DEV" url="http://dev.spds.com.br">
+        <fileTransfer host="dev.spds.com.br" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/dev.spds.com.br/htdocs" accessType="SFTP" username="root" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
